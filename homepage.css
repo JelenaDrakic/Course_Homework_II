@@ -1,0 +1,428 @@
+:root{
+    --background-color1:rgba(252,195,2,1);
+}
+*{
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    margin:0;   
+    font-family: 'Poppins', sans-serif;   
+    overflow-x: hidden;
+}
+/*Styling the Navigation Bar*/
+nav{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(212, 164, 4);
+    color: white;
+}
+nav > img{
+    height: auto;
+    max-width: 100%;
+}
+nav > a{ 
+    padding:20px;
+    text-decoration:none;
+    font-size: large;
+}
+nav > a:link{
+    color: white;
+}
+nav > a:visited{
+    color:white;
+}
+nav > a:hover{
+    color:rgb(210, 132, 31);
+    cursor: pointer;
+}
+
+/*Styling the first slide-div1*/
+.div1{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--background-color1);
+    color:white;
+}
+.div1-col1
+{    flex: 70%;        
+}
+.div1-col2
+{    flex: 30%;           
+}
+.image{
+    width: 100%;
+}
+.div1-col1 #button1{
+    background-color: rgba(0,190,201,1);
+    border-color:rgba(0,190,201,1);
+    color:white;
+    padding:1.3em 1.2em;
+    border-radius: 0.7em;
+    font-weight: bolder;
+    cursor: pointer;    
+}
+#button1:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+#button1:active {
+    background-color: rgb(212, 164, 4);
+    box-shadow: 0 5px rgb(212, 164, 4);
+    transform: translateY(4px);
+  }
+.div1-col1 #button2{
+    background-color: var(--background-color1);
+    border-color: white;
+    color:white;
+    padding:1.3em 1.2em;
+    border-radius: 0.7em;
+    margin-left:1.5em;   
+    font-weight: bold;
+    cursor: pointer;
+}
+#button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+#button2:active {
+    background-color: rgb(212, 164, 4);
+    box-shadow: 0 5px rgb(212, 164, 4);
+    transform: translateY(4px);
+}
+/*Styling slide2-div2*/
+.div2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.div2-col1
+{    flex: 60%;        
+}
+.div2-col2
+{    flex: 40%;           
+}
+.div2-col2 > video{
+    height: auto;
+    width: 100%;
+    align-self: center;   
+}
+.div2-col1 #button3{
+    background-color: var(--background-color1);
+    border-color: var(--background-color1);
+    color:white;
+    padding:1.3em 1.2em;
+    border-radius: 0.7em;
+    font-weight: bold;
+    margin-left:1em;
+    cursor: pointer;
+    }
+    #button3:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+    #button3:active {
+        background-color: rgb(212, 164, 4);
+        box-shadow: 0 5px rgb(212, 164, 4);
+        transform: translateY(4px);
+    }
+ /*styling slide3-div3*/
+.div3{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: var(--background-color1);
+    color:white;
+}
+.div3-col1
+{    flex: 20%;        
+}
+.div3-col2
+{    flex: 80%;           
+}
+.div3-col1 h1{
+    font-size: 3rem;
+    font-weight:bold;
+    text-align: center;
+}
+.div3-col1 p{
+    text-align: center;
+}
+.div3-col2{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;   
+}
+/*styling slide4-div4*/
+.div4{
+    display: flex;
+    flex-wrap: wrap;
+}
+.div4-col1
+{    flex: 40%;        
+}
+.div4-col2
+{    flex: 60%;           
+}
+.div4-col1 > video{
+    height: auto;
+    width: 100%;
+    align-self: center;   
+}
+.div4-col2 #button4{
+    background-color: var(--background-color1);
+    border-color: var(--background-color1);
+    color:white;
+    padding:1.3em 1.2em;
+    border-radius: 0.7em;
+    font-weight: bold;   
+    cursor: pointer;
+}
+#button4:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#button4:active {
+    background-color: rgb(212, 164, 4);
+    box-shadow: 0 5px rgb(212, 164, 4);
+    transform: translateY(4px);
+}
+/*styling slide5-div5*/
+.div5{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: var(--background-color1);
+    color:white;
+}
+.div5-col1
+{    flex: 20%;        
+}
+.div5-col2
+{   flex: 80%;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;           
+}
+.div5-col1 h1{
+    font-size: 3rem;
+    font-weight:bold;
+    text-align: center;
+}
+.div5-col1 p{
+    text-align: center;
+}
+.button5{
+    background-color: rgba(0,190,201,1);
+    border-color:rgba(0,190,201,1);
+    color:white;
+    padding:0.8em;
+    border-radius: 2em;
+    font-weight: bolder;
+    cursor: pointer;
+    width: 40%;
+    align-self: center;    
+}
+.button5:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+.button5:active {
+    background-color: rgb(212, 164, 4);
+    box-shadow: 0 5px rgb(212, 164, 4);
+    transform: translateY(4px);
+}
+.div5-col1 p{
+    text-align: center;
+}
+.line-through{
+    text-decoration: line-through;
+}
+.text1{
+    font-size:1.5rem ;
+    margin-bottom: 1.5em;
+}
+/*styling slide6-div6*/
+.div6{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.div6-col1
+{    flex: 20%;        
+}
+.div6-col2
+{   flex: 80%;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;              
+}
+.div6-col1 h1{
+    font-size: 3rem;
+    font-weight:bold;
+    text-align: center;
+}
+.div6-col1 p{
+    text-align: center;
+}
+.text2{
+    font-weight: 900;
+    font-size: large;
+}
+.social-icons
+{
+    display:flex;
+    justify-content: center;
+    align-items: space-evenly;  
+}
+.color a{
+    color: var(--background-color1);
+}
+.social-icons a{
+    margin:0 0.5em;
+}
+/*styling slide7-div7*/
+.div7{
+    padding:64px;
+    display: flex;
+    background-color:var(--background-color1);
+}
+.quarter{
+    float: left;
+    width: 100%;
+}
+.contain
+{
+    background-color: var(--background-color1);
+    padding:0.01em 16px;
+    color: white;
+}
+.center
+{
+    text-align: center;
+}
+.larger{
+    font-size: 36px;
+}
+.image7{
+    width:40%;
+    align-self: center;
+}
+/*Styling slide8-div8*/
+.div8{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.div8-col1
+{    flex: 20%;        
+}
+.div8-col1 h1{
+    font-size: 3rem;
+    font-weight:bold;
+    text-align: center;
+}
+.div8-col1 p{
+    text-align: center;
+}
+.div8-col2
+{   flex: 80%;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;              
+}
+div.polaroid {
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+} 
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+}
+.blue{
+    color:rgba(0,190,201,1);
+}
+/*Styling slide9-div9*/
+.div9{
+    display:flex;
+    background-color: rgba(52,52,52,1);
+    color:white;
+    padding-bottom: 5em;
+}
+.offer > ul> li{
+    text-align: start;
+}
+.list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    list-style-position: outside;
+}
+.list a{ 
+    text-decoration:none;  
+    color: white;
+}
+.list a:hover{
+    color:rgb(210, 132, 31);
+    cursor: pointer;
+}
+.white{
+    color: white;
+}
+
+
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+    .div1 {   
+      flex-direction: column;
+    }
+    nav{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    nav > a,img{
+      display:block;
+      width: 100%;
+    }
+    .div2 {   
+        flex-direction: column;
+    }
+    .div3 {   
+        flex-direction: row;
+    }
+    .div3-col2{
+        flex-direction: column;   
+    }
+    .div4 {   
+        flex-direction: column;
+    }
+    .div5 {   
+        flex-direction: row;
+    }
+    .div5-col2{
+        flex-direction: column;   
+    }
+    .div6 {   
+        flex-direction: row;
+    }
+    .div6-col2{
+        flex-direction: column;   
+    }
+    .div7{
+        flex-direction: column;
+    }
+    .div8 {   
+        flex-direction: row;
+    }
+    .div8-col2{
+        flex-direction: column;   
+    }
+    .div9 {   
+        flex-direction: column;
+    }
+  }
+  

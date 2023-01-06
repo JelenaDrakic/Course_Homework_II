@@ -1,0 +1,128 @@
+:root{
+    --background-color1:rgba(252,195,2,1);
+}
+*{
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    margin:0;   
+    font-family: 'Poppins', sans-serif;   
+    overflow-x: hidden;
+}
+/*Styling the Navigation Bar*/
+nav{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(212, 164, 4);
+    color: white;
+}
+nav > img{
+    height: auto;
+    max-width: 100%;
+}
+nav > a{ 
+    padding:20px;
+    text-decoration:none;
+    font-size: large;
+}
+nav > a:link{
+    color: white;
+}
+nav > a:visited{
+    color:white;
+}
+nav > a:hover{
+    color:rgb(210, 132, 31);
+    cursor: pointer;
+}
+/*Styling footer*/
+.footer{
+    display:flex;
+    background-color: rgba(52,52,52,1);
+    color:white;
+    padding-bottom: 5em;
+}
+.offer > ul> li{
+    text-align: start;
+}
+.list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    list-style-position: outside;
+}
+.list a{ 
+    text-decoration:none;  
+    color: white;
+}
+.list a:hover{
+    color:rgb(210, 132, 31);
+    cursor: pointer;
+}
+.white{
+    color: white;
+}
+.text2{
+  font-weight: 900;
+  font-size: large;
+}
+.social-icons
+{
+  display:flex;
+  justify-content: center;
+  align-items: space-evenly;  
+}
+.social-icons a{
+  margin:0 0.5em;
+}
+/*styling Contact Section*/
+.contain
+{
+    background-color: var(--background-color1);
+    padding:0.01em 16px;
+    color: white;
+}
+.center
+{
+    text-align: center;
+}
+.large{
+    font-size: 18px;
+}
+.larger{
+    font-size: 36px;
+}
+.margin-right{
+    margin-right: 16px;
+}
+.input{
+    padding:8px;
+    display: block;
+    border:none;
+    width: 100%;
+    border-radius: 0.7em;
+}
+.buttonc{
+    padding: 20px;
+    border: none;
+    background-color: rgba(0,190,201,1);
+    color: white;
+    border-radius: 0.4em;
+}
+@media screen and (max-width: 650px) {
+    nav{
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    nav > a,img{
+    display:block;
+    width: 100%;
+    }
+    .footer {   
+      flex-direction: column;
+   }
+}
