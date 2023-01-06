@@ -175,7 +175,9 @@ nav > a:hover{
 {    flex: 40%;        
 }
 .div4-col2
-{    flex: 60%;           
+{   flex: 60%;
+    margin:auto;
+    padding-left: 5em;          
 }
 .div4-col1 > video{
     height: auto;
