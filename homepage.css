@@ -46,21 +46,20 @@ nav > a:hover{
     color:white;
 }
 .div1-col1
-{    flex: 65%;
+{   flex: 65%;
     margin: auto;
     padding-left: 4em;        
 }
 .div1-col2
 {    flex: 35%;
-    margin: auto;           
+     margin:auto;           
 }
 .image{
     width: 100%;
 }
 .div1-col1 > h1
 {
-    font-size: 2.5em;
-    
+    font-size: 30px;   
 }
 .div1-col1 > p
 {
@@ -108,10 +107,13 @@ nav > a:hover{
     flex-wrap: wrap;
 }
 .div2-col1
-{    flex: 60%;        
+{    flex: 60%;
+    margin:auto;
+    padding-left: 4em;           
 }
 .div2-col2
-{    flex: 40%;           
+{    flex: 40%;
+               
 }
 .div2-col2 > video{
     height: auto;
