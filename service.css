@@ -74,6 +74,65 @@ nav > a:hover{
 {
     text-align: center;
 }
+.image{
+    width: 100%;
+}
+/*styling slide5-div5*/
+.divb{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: var(--background-color1);
+    color:white;
+}
+.divb-col1
+{    flex: 20%;        
+}
+.divb-col2
+{   flex: 80%;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;           
+}
+.divb-col1 h1{
+    font-size: 3rem;
+    font-weight:bold;
+    text-align: center;
+}
+.divb-col1 p{
+    text-align: center;
+}
+.button5{
+    background-color: rgba(0,190,201,1);
+    border-color:rgba(0,190,201,1);
+    color:white;
+    padding:0.8em;
+    border-radius: 2em;
+    font-weight: bolder;
+    cursor: pointer;
+    width: 40%;
+    display:block;
+    margin:0 auto;      
+}
+.button5:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+.button5:active {
+    background-color: rgb(212, 164, 4);
+    box-shadow: 0 5px rgb(212, 164, 4);
+    transform: translateY(4px);
+}
+.divb-col1 p{
+    text-align: center;
+}
+.line-through{
+    text-decoration: line-through;
+}
+.text1{
+    font-size:1.5rem ;
+    margin-bottom: 1.5em;
+}
 /*Styling footer*/
 .footer{
     display:flex;
@@ -144,5 +203,11 @@ margin:0 0.5em;
     }
     .footer {   
     flex-direction: column;
+}
+.divb {   
+    flex-direction: row;
+}
+.divb-col2{
+    flex-direction: column;   
 }
 }
