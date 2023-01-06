@@ -48,7 +48,7 @@ nav > a:hover{
 .div1-col1
 {   flex: 65%;
     margin: auto;
-    padding-left: 4em;        
+    padding-left: 3.5em;        
 }
 .div1-col2
 {    flex: 35%;
@@ -90,7 +90,7 @@ nav > a:hover{
     color:white;
     padding:1.1em 0.9em;
     border-radius: 0.7em;
-    margin-left:1.5em;   
+    margin-left:1.2em;   
     font-weight: bold;
     cursor: pointer;
     
