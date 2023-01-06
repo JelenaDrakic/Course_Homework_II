@@ -364,7 +364,7 @@ div.container {
     color:rgba(0,190,201,1);
 }
 /*Styling slide9-div9*/
-.div9{
+.div9{ 
     display:flex;
     background-color: rgba(52,52,52,1);
     color:white;
@@ -379,7 +379,7 @@ div.container {
 .offer > ul> li{
     text-align: start;
 }
-h6.right{
+.right{
     text-align: end;
     padding-right:2em;
 }
