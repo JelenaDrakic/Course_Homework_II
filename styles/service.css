@@ -42,6 +42,42 @@ nav > a:hover{
   color:rgb(210, 132, 31);
   cursor: pointer;
 }
+/* styling search bar */
+.search input[type="text"]{
+    width:100px;
+    height:31px;
+    border: none;
+    background-color: var(--background-color1);
+}    
+.search{
+    float:right;
+    margin-top: 20px;   
+}     
+.search button{
+    background-color: rgba(0,190,201,1);
+    color: white;
+    float: right;
+    padding: 5px 10px 8px 10px;
+    margin-right: 16px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+    font-family: 'Poppins', sans-serif;
+  }
 /*styling diva*/
 .diva{
     display: flex;
