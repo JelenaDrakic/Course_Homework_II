@@ -233,12 +233,12 @@ nav > a:hover{
 }
 .div4-col2
 {   flex: 50%;
-    margin:auto;
-    padding-left: 5em;
+    margin: auto;
+    padding-right: 2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;           
+    align-items:flex-end;           
 }
 .rightside{
     text-align: right;
@@ -345,7 +345,6 @@ nav > a:hover{
 .div6-col1 p{
     text-align: center;
 }
-
 .text2{
     font-weight: 900;
     font-size: large;
