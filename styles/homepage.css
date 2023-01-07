@@ -93,6 +93,9 @@ nav > a:hover{
 {    flex: 45%;
      margin:auto;           
 }
+.big{
+    font-size: 2.5em;
+}
 .image1{
     width: 60%;
 }
@@ -153,18 +156,22 @@ nav > a:hover{
     flex-wrap: wrap;
 }
 .div2-col1
-{    flex: 60%;
+{    flex: 50%;
     margin:auto;
     padding-left: 4em;           
 }
 .div2-col2
-{    flex: 40%;
+{   flex: 50%;
+    margin:0 auto;
+    padding-top: 3em;
+    padding-right: 3em;
+    padding-left: 5em;
                
 }
-.div2-col2 > video{
-    height: auto;
-    width: 100%;
-    align-self: center;   
+.div2-col2 video{
+    height: 70%;
+    width: 80%;
+    margin:0 auto;   
 }
 .div2-col1 #button3{
     background-color: var(--background-color1);
@@ -218,10 +225,14 @@ nav > a:hover{
     flex-wrap: wrap;
 }
 .div4-col1
-{    flex: 40%;        
+{    flex: 50%;
+    margin:0 auto;
+    padding-top: 3em;
+    padding-right: 3em;
+    padding-left: 5em;        
 }
 .div4-col2
-{   flex: 60%;
+{   flex: 50%;
     margin:auto;
     padding-left: 5em;
     display: flex;
@@ -229,11 +240,13 @@ nav > a:hover{
     justify-content: center;
     align-items: center;           
 }
-
+.rightside{
+    text-align: right;
+}
 .div4-col1 > video{
-    height: auto;
-    width: 100%;
-    align-self: center;   
+    height: 70%;
+    width: 80%;
+    margin:0 auto;   
 }
 .div4-col2 #button4{
     background-color: var(--background-color1);
