@@ -150,9 +150,6 @@ nav > a:hover{
     box-shadow: 0 5px rgb(212, 164, 4);
     transform: translateY(4px);
 }
-.inline{
-    display: inline;
-}
 /*Styling slide2-div2*/
 .div2{
     display: flex;

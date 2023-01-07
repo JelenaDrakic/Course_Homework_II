@@ -121,6 +121,10 @@ nav > a:hover{
     color: white;
     border-radius: 0.4em;
 }
+.buttonc:hover{
+    cursor: pointer;
+    background-color: rgb(5, 107, 113);
+}
 @media screen and (max-width: 650px) {
     nav{
       flex-direction: column;
