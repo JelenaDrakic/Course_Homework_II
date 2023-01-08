@@ -123,6 +123,34 @@ nav > a:hover{
 .social-icons a{
   margin:0 0.5em;
 }
+/*animation of social-icons*/
+.icon-3d {
+    
+    -webkit-animation: icon3d 200ms 10;
+    animation: icon3d 200ms 10;
+   
+  }
+  .icon-3d:hover {
+    -webkit-animation: icon3d 200ms infinite;
+          animation: icon3d 200ms infinite;
+  }
+  @keyframes icon3d {
+    0% {
+      text-shadow: 5px 4px red, -5px -6px blue;
+    }
+    25% {
+      text-shadow: -5px -6px red, 5px 4px blue;
+    }
+    50% {
+      text-shadow: 5px -4px red, -8px 4px blue;
+    }
+    75% {
+      text-shadow: -8px -4px red, -5px -4px blue;
+    }
+    100% {
+      text-shadow: -5px 0 red, 5px -4px blue;
+    }
+  }
 /*styling Contact Section*/
 .contain
 {
