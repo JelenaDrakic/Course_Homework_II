@@ -78,6 +78,7 @@ nav > a:hover{
   color: white;
   font-family: 'Poppins', sans-serif;
 }
+/*Styling the about us section*/
 .column {
     float: left;
     width: 33.3%;
@@ -143,7 +144,7 @@ nav > a:hover{
   text-align: end;
   padding-right:2em;
 }
-.offer > ul> li{
+.third > ul> li{
     text-align: start;
 }
 .list{
@@ -162,6 +163,9 @@ nav > a:hover{
 }
 .white{
     color: white;
+}
+.white i{
+  font-size: larger;
 }
 .text2{
   font-weight: 900;

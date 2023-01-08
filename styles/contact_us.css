@@ -73,6 +73,44 @@ nav > a:hover{
     color: white;
     font-family: 'Poppins', sans-serif;
   }
+  /*styling Contact Section*/
+.contain
+{
+    background-color: var(--background-color1);
+    padding:0.01em 16px;
+    color: white;
+}
+.center
+{
+    text-align: center;
+}
+.large{
+    font-size: 18px;
+}
+.larger{
+    font-size: 36px;
+}
+.margin-right{
+    margin-right: 16px;
+}
+.input{
+    padding:8px;
+    display: block;
+    border:none;
+    width: 100%;
+    border-radius: 0.7em;
+}
+.buttonc{
+    padding: 20px;
+    border: none;
+    background-color: rgba(0,190,201,1);
+    color: white;
+    border-radius: 0.4em;
+}
+.buttonc:hover{
+    cursor: pointer;
+    background-color: rgb(5, 107, 113);
+}
 /*Styling footer*/
 .footer{
     display:flex;
@@ -86,11 +124,11 @@ nav > a:hover{
     width: calc(100%/3);
     padding-left:1.5em;
   }
-  .right{
-    text-align: end;
-    padding-right:2em;
-  }
-.offer > ul> li{
+.right{
+  text-align: end;
+  padding-right:2em;
+}
+.third > ul> li{
     text-align: start;
 }
 .list{
@@ -109,6 +147,9 @@ nav > a:hover{
 }
 .white{
     color: white;
+}
+.white i{
+  font-size: larger;
 }
 .text2{
   font-weight: 900;
@@ -151,44 +192,7 @@ nav > a:hover{
       text-shadow: -5px 0 red, 5px -4px blue;
     }
   }
-/*styling Contact Section*/
-.contain
-{
-    background-color: var(--background-color1);
-    padding:0.01em 16px;
-    color: white;
-}
-.center
-{
-    text-align: center;
-}
-.large{
-    font-size: 18px;
-}
-.larger{
-    font-size: 36px;
-}
-.margin-right{
-    margin-right: 16px;
-}
-.input{
-    padding:8px;
-    display: block;
-    border:none;
-    width: 100%;
-    border-radius: 0.7em;
-}
-.buttonc{
-    padding: 20px;
-    border: none;
-    background-color: rgba(0,190,201,1);
-    color: white;
-    border-radius: 0.4em;
-}
-.buttonc:hover{
-    cursor: pointer;
-    background-color: rgb(5, 107, 113);
-}
+
 @media screen and (max-width: 650px) {
     nav{
       flex-direction: column;

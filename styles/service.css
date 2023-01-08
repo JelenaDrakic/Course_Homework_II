@@ -187,7 +187,7 @@ padding-left:1.5em;
 text-align: end;
 padding-right:2em;
 }
-.offer > ul> li{
+.third > ul> li{
     text-align: start;
 }
 .list{
@@ -226,31 +226,31 @@ margin:0 0.5em;
 /*animation of social-icons*/
 .icon-3d {
     
-    -webkit-animation: icon3d 200ms 10;
-    animation: icon3d 200ms 10;
+  -webkit-animation: icon3d 200ms 10;
+  animation: icon3d 200ms 10;
    
+}
+.icon-3d:hover {
+  -webkit-animation: icon3d 200ms infinite;
+  animation: icon3d 200ms infinite;
+}
+@keyframes icon3d {
+  0% {
+    text-shadow: 5px 4px red, -5px -6px blue;
   }
-  .icon-3d:hover {
-    -webkit-animation: icon3d 200ms infinite;
-          animation: icon3d 200ms infinite;
+  25% {
+    text-shadow: -5px -6px red, 5px 4px blue;
   }
-  @keyframes icon3d {
-    0% {
-      text-shadow: 5px 4px red, -5px -6px blue;
-    }
-    25% {
-      text-shadow: -5px -6px red, 5px 4px blue;
-    }
-    50% {
-      text-shadow: 5px -4px red, -8px 4px blue;
-    }
-    75% {
-      text-shadow: -8px -4px red, -5px -4px blue;
-    }
-    100% {
-      text-shadow: -5px 0 red, 5px -4px blue;
-    }
+  50% {
+    text-shadow: 5px -4px red, -8px 4px blue;
   }
+  75% {
+    text-shadow: -8px -4px red, -5px -4px blue;
+  }
+  100% {
+    text-shadow: -5px 0 red, 5px -4px blue;
+  }
+}
 @media screen and (max-width: 650px) {
     nav{
     flex-direction: column;

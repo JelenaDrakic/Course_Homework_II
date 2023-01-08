@@ -4,6 +4,7 @@
 *{
     box-sizing: border-box;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body{
     margin:0;   
@@ -183,14 +184,14 @@ nav > a:hover{
     margin-left:1em;
     cursor: pointer;
     }
-    #button3:hover {
-        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    }
-    #button3:active {
-        background-color: rgb(212, 164, 4);
-        box-shadow: 0 5px rgb(212, 164, 4);
-        transform: translateY(4px);
-    }
+#button3:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#button3:active {
+    background-color: rgb(212, 164, 4);
+    box-shadow: 0 5px rgb(212, 164, 4);
+    transform: translateY(4px);
+}
  /*styling slide3-div3*/
 .div3{
     display: flex;
@@ -425,8 +426,8 @@ div.container {
 .blue{
     color:rgba(0,190,201,1);
 }
-/*Styling slide9-div9*/
-.div9{ 
+/*Styling the footer*/
+.footer{ 
     display:flex;
     background-color: rgba(52,52,52,1);
     color:white;
@@ -438,7 +439,7 @@ div.container {
     width: calc(100%/3);
     padding-left:1.5em;
 }
-.offer > ul> li{
+.third > ul> li{
     text-align: start;
 }
 .right{
@@ -461,6 +462,9 @@ div.container {
 }
 .white{
     color: white;
+}
+.white i{
+    font-size: larger;
 }
 /* Responsive layout*/
 @media screen and (max-width: 600px) {
@@ -510,7 +514,7 @@ div.container {
     .div8-col2{
         flex-direction: column;   
     }
-    .div9 {   
+    .footer {   
         flex-direction: column;
     }
   }
