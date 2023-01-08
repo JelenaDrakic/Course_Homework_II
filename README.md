@@ -5,7 +5,7 @@ In addition to every commit title there is a supplementary short, more detailed 
 
 File that represents the Home Page is index.html file.
 
-'styles' folder contains all the necessary .css files for styling web pages.
+'styles' folder contains all the necessary .css files for styling web pages./n
 'images' folder containes all the necessary images for completing the project.
 'pages' folder containes .html files for About Us, Contact Us and Our Service pages.
 
